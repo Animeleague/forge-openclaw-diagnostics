@@ -1,10 +1,10 @@
-# OpenClaw Monitoring
+# Forge OpenClaw Diagnostics
 
-Read-only diagnostics and source-locating helpers used for Animeleague's Forge/OpenClaw performance, cache, prompt-growth and session investigations.
+Read-only diagnostics and source-locating helpers for Animeleague's Forge/OpenClaw performance, cache, prompt-growth, native-thread and session investigations.
 
 ## Scope
 
-This repository is for monitoring/audit tooling. Production Forge monitor logic lives in `Animeleague/forge-discord-monitor`; OpenClaw core patches live in `Animeleague/openclaw`.
+This repository is for diagnostics/audit tooling only. Production Discord gateway and routing logic lives in `Animeleague/forge-discord-monitor`; OpenClaw core patches live in `Animeleague/openclaw`.
 
 The scripts here should be read-only unless their header explicitly says otherwise. Patch/deploy scripts and abandoned runtime experiments are intentionally not mixed into this repository.
 
