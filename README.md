@@ -4,7 +4,7 @@ Read-only diagnostics and source-locating helpers for Animeleague's Forge/OpenCl
 
 ## Scope
 
-This repository is for diagnostics/audit tooling only. Production Discord gateway and routing logic lives in `Animeleague/forge-discord-monitor`; OpenClaw core patches live in `Animeleague/openclaw`.
+This repository is for diagnostics/audit tooling only. Production Discord gateway and routing logic lives in `Animeleague/forge-discord-gateway`; OpenClaw core patches live in `Animeleague/openclaw`.
 
 The scripts here should be read-only unless their header explicitly says otherwise. Patch/deploy scripts and abandoned runtime experiments are intentionally not mixed into this repository.
 
